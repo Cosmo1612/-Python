@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>b1_2</class>
+ <widget class="QMainWindow" name="b1_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(231, 255, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="QLTK">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>111</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(170, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Tài khoản</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/user.webp</normaloff>../test/user.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NhapHang">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>91</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Nhập Hàng</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/nhaphang.jpg</normaloff>../test/nhaphang.jpg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ThueVay">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>80</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(170, 255, 127)</string>
+    </property>
+    <property name="text">
+     <string>Thuê váy</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/thue.webp</normaloff>../test/thue.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TraVay">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>80</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(170, 255, 127)</string>
+    </property>
+    <property name="text">
+     <string>Trả váy</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/tra.webp</normaloff>../test/tra.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ThongKe">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>80</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0, 85, 255)</string>
+    </property>
+    <property name="text">
+     <string>Thống kê</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/thongke.webp</normaloff>../test/thongke.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#00aaff;&quot;&gt;Trang Chủ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MatHang">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>91</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Mặt Hàng</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/shop.webp</normaloff>../test/shop.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TTKH">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>80</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(170, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>khách hàng</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/customer.webp</normaloff>../test/customer.webp</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-10</y>
+      <width>881</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Users/Admin/Pictures/editpic/IMG_7737.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DX_btn">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>80</y>
+      <width>91</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Đăng Xuất</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../test/UI_Essential_icon_expanded-56-64.webp</normaloff>../test/UI_Essential_icon_expanded-56-64.webp</iconset>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>QLTK</zorder>
+   <zorder>NhapHang</zorder>
+   <zorder>ThueVay</zorder>
+   <zorder>TraVay</zorder>
+   <zorder>ThongKe</zorder>
+   <zorder>label</zorder>
+   <zorder>MatHang</zorder>
+   <zorder>TTKH</zorder>
+   <zorder>DX_btn</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>902</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
